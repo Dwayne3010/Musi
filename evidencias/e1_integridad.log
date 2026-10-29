@@ -1,0 +1,17 @@
+﻿Changed database context to 'BusRD'.
+=== E1.1 Boletos activos duplicados ===
+ViajeID NumeroAsiento BoletosActivos BoletoMasAntiguo BoletoMasReciente
+------- ------------- -------------- ---------------- -----------------
+=== E1.1 Pagos huerfanos ===
+PagoID BoletoID Monto Metodo FechaPago
+------ -------- ----- ------ ---------
+Limpieza completada correctamente.
+=== Verificacion: duplicados activos restantes ===
+DuplicadosActivos
+-----------------
+0
+=== Verificacion: pagos huerfanos restantes ===
+PagosHuerfanos
+--------------
+0
+=== E1 completado: integridad aplicada ===

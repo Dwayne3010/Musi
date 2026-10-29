@@ -1,0 +1,252 @@
+Origen Destino Mes Boletos Ingresos
+------ ------- --- ------- --------
+Barahona Santo Domingo 1 404 193920.00
+Barahona Santo Domingo 2 433 207840.00
+Barahona Santo Domingo 3 414 198720.00
+Barahona Santo Domingo 4 483 231840.00
+Barahona Santo Domingo 5 473 227040.00
+Barahona Santo Domingo 6 466 223680.00
+Barahona Santo Domingo 7 480 230400.00
+Barahona Santo Domingo 8 478 229440.00
+Barahona Santo Domingo 9 450 216000.00
+Barahona Santo Domingo 10 472 226560.00
+Barahona Santo Domingo 11 450 216000.00
+Barahona Santo Domingo 12 463 222240.00
+Higüey Santo Domingo 1 476 190400.00
+Higüey Santo Domingo 2 420 168000.00
+Higüey Santo Domingo 3 432 172800.00
+Higüey Santo Domingo 4 478 191200.00
+Higüey Santo Domingo 5 447 178800.00
+Higüey Santo Domingo 6 428 171200.00
+Higüey Santo Domingo 7 457 182800.00
+Higüey Santo Domingo 8 480 192000.00
+Higüey Santo Domingo 9 444 177600.00
+Higüey Santo Domingo 10 402 160800.00
+Higüey Santo Domingo 11 384 153600.00
+Higüey Santo Domingo 12 467 186800.00
+La Romana Santo Domingo 1 466 163100.00
+La Romana Santo Domingo 2 475 166250.00
+La Romana Santo Domingo 3 482 168700.00
+La Romana Santo Domingo 4 445 155750.00
+La Romana Santo Domingo 5 437 152950.00
+La Romana Santo Domingo 6 416 145600.00
+La Romana Santo Domingo 7 373 130550.00
+La Romana Santo Domingo 8 457 159950.00
+La Romana Santo Domingo 9 476 166600.00
+La Romana Santo Domingo 10 463 162050.00
+La Romana Santo Domingo 11 490 171500.00
+La Romana Santo Domingo 12 435 152250.00
+La Vega Santo Domingo 1 447 160920.00
+La Vega Santo Domingo 2 449 161640.00
+La Vega Santo Domingo 3 475 171000.00
+La Vega Santo Domingo 4 420 151200.00
+La Vega Santo Domingo 5 474 170640.00
+La Vega Santo Domingo 6 438 157680.00
+La Vega Santo Domingo 7 450 162000.00
+La Vega Santo Domingo 8 428 154080.00
+La Vega Santo Domingo 9 422 151920.00
+La Vega Santo Domingo 10 437 157320.00
+La Vega Santo Domingo 11 493 177480.00
+La Vega Santo Domingo 12 451 162360.00
+Puerto Plata Santo Domingo 1 440 242000.00
+Puerto Plata Santo Domingo 2 445 244750.00
+Puerto Plata Santo Domingo 3 483 265650.00
+Puerto Plata Santo Domingo 4 427 234850.00
+Puerto Plata Santo Domingo 5 362 199100.00
+Puerto Plata Santo Domingo 6 426 234300.00
+Puerto Plata Santo Domingo 7 517 284350.00
+Puerto Plata Santo Domingo 8 469 257950.00
+Puerto Plata Santo Domingo 9 412 226600.00
+Puerto Plata Santo Domingo 10 460 253000.00
+Puerto Plata Santo Domingo 11 462 254100.00
+Puerto Plata Santo Domingo 12 455 250250.00
+Punta Cana Santo Domingo 1 427 213500.00
+Punta Cana Santo Domingo 2 433 216500.00
+Punta Cana Santo Domingo 3 486 243000.00
+Punta Cana Santo Domingo 4 459 229500.00
+Punta Cana Santo Domingo 5 444 222000.00
+Punta Cana Santo Domingo 6 431 215500.00
+Punta Cana Santo Domingo 7 453 226500.00
+Punta Cana Santo Domingo 8 475 237500.00
+Punta Cana Santo Domingo 9 445 222500.00
+Punta Cana Santo Domingo 10 522 261000.00
+Punta Cana Santo Domingo 11 472 236000.00
+Punta Cana Santo Domingo 12 418 209000.00
+Samaná Santo Domingo 1 410 184500.00
+Samaná Santo Domingo 2 412 185400.00
+Samaná Santo Domingo 3 463 208350.00
+Samaná Santo Domingo 4 460 207000.00
+Samaná Santo Domingo 5 417 187650.00
+Samaná Santo Domingo 6 436 196200.00
+Samaná Santo Domingo 7 487 219150.00
+Samaná Santo Domingo 8 431 193950.00
+Samaná Santo Domingo 9 421 189450.00
+Samaná Santo Domingo 10 445 200250.00
+Samaná Santo Domingo 11 483 217350.00
+Samaná Santo Domingo 12 395 177750.00
+San Francisco de Macorís Santo Domingo 1 412 164800.00
+San Francisco de Macorís Santo Domingo 2 368 147200.00
+San Francisco de Macorís Santo Domingo 3 484 193600.00
+San Francisco de Macorís Santo Domingo 4 498 199200.00
+San Francisco de Macorís Santo Domingo 5 471 188400.00
+San Francisco de Macorís Santo Domingo 6 489 195600.00
+San Francisco de Macorís Santo Domingo 7 440 176000.00
+San Francisco de Macorís Santo Domingo 8 460 184000.00
+San Francisco de Macorís Santo Domingo 9 471 188400.00
+San Francisco de Macorís Santo Domingo 10 451 180400.00
+San Francisco de Macorís Santo Domingo 11 487 194800.00
+San Francisco de Macorís Santo Domingo 12 435 174000.00
+San Pedro de Macorís Santo Domingo 1 458 114500.00
+San Pedro de Macorís Santo Domingo 2 453 113250.00
+San Pedro de Macorís Santo Domingo 3 429 107250.00
+San Pedro de Macorís Santo Domingo 4 488 122000.00
+San Pedro de Macorís Santo Domingo 5 467 116750.00
+San Pedro de Macorís Santo Domingo 6 399 99750.00
+San Pedro de Macorís Santo Domingo 7 423 105750.00
+San Pedro de Macorís Santo Domingo 8 492 123000.00
+San Pedro de Macorís Santo Domingo 9 449 112250.00
+San Pedro de Macorís Santo Domingo 10 492 123000.00
+San Pedro de Macorís Santo Domingo 11 434 108500.00
+San Pedro de Macorís Santo Domingo 12 433 108250.00
+Santiago Santo Domingo 1 403 169260.00
+Santiago Santo Domingo 2 429 180180.00
+Santiago Santo Domingo 3 547 229740.00
+Santiago Santo Domingo 4 476 199920.00
+Santiago Santo Domingo 5 490 205800.00
+Santiago Santo Domingo 6 502 210840.00
+Santiago Santo Domingo 7 483 202860.00
+Santiago Santo Domingo 8 451 189420.00
+Santiago Santo Domingo 9 418 175560.00
+Santiago Santo Domingo 10 469 196980.00
+Santiago Santo Domingo 11 437 183540.00
+Santiago Santo Domingo 12 437 183540.00
+Santo Domingo Barahona 1 448 215040.00
+Santo Domingo Barahona 2 419 201120.00
+Santo Domingo Barahona 3 392 188160.00
+Santo Domingo Barahona 4 471 226080.00
+Santo Domingo Barahona 5 513 246240.00
+Santo Domingo Barahona 6 434 208320.00
+Santo Domingo Barahona 7 487 233760.00
+Santo Domingo Barahona 8 488 234240.00
+Santo Domingo Barahona 9 399 191520.00
+Santo Domingo Barahona 10 482 231360.00
+Santo Domingo Barahona 11 429 205920.00
+Santo Domingo Barahona 12 462 221760.00
+Santo Domingo Higüey 1 434 173600.00
+Santo Domingo Higüey 2 442 176800.00
+Santo Domingo Higüey 3 478 191200.00
+Santo Domingo Higüey 4 440 176000.00
+Santo Domingo Higüey 5 451 180400.00
+Santo Domingo Higüey 6 462 184800.00
+Santo Domingo Higüey 7 431 172400.00
+Santo Domingo Higüey 8 403 161200.00
+Santo Domingo Higüey 9 468 187200.00
+Santo Domingo Higüey 10 409 163600.00
+Santo Domingo Higüey 11 460 184000.00
+Santo Domingo Higüey 12 467 186800.00
+Santo Domingo La Romana 1 500 175000.00
+Santo Domingo La Romana 2 404 141400.00
+Santo Domingo La Romana 3 502 175700.00
+Santo Domingo La Romana 4 414 144900.00
+Santo Domingo La Romana 5 461 161350.00
+Santo Domingo La Romana 6 447 156450.00
+Santo Domingo La Romana 7 516 180600.00
+Santo Domingo La Romana 8 473 165550.00
+Santo Domingo La Romana 9 442 154700.00
+Santo Domingo La Romana 10 495 173250.00
+Santo Domingo La Romana 11 466 163100.00
+Santo Domingo La Romana 12 409 143150.00
+Santo Domingo La Vega 1 485 174600.00
+Santo Domingo La Vega 2 379 136440.00
+Santo Domingo La Vega 3 411 147960.00
+Santo Domingo La Vega 4 452 162720.00
+Santo Domingo La Vega 5 413 148680.00
+Santo Domingo La Vega 6 432 155520.00
+Santo Domingo La Vega 7 456 164160.00
+Santo Domingo La Vega 8 457 164520.00
+Santo Domingo La Vega 9 430 154800.00
+Santo Domingo La Vega 10 452 162720.00
+Santo Domingo La Vega 11 364 131040.00
+Santo Domingo La Vega 12 395 142200.00
+Santo Domingo Puerto Plata 1 439 241450.00
+Santo Domingo Puerto Plata 2 408 224400.00
+Santo Domingo Puerto Plata 3 491 270050.00
+Santo Domingo Puerto Plata 4 466 256300.00
+Santo Domingo Puerto Plata 5 500 275000.00
+Santo Domingo Puerto Plata 6 431 237050.00
+Santo Domingo Puerto Plata 7 486 267300.00
+Santo Domingo Puerto Plata 8 538 295900.00
+Santo Domingo Puerto Plata 9 464 255200.00
+Santo Domingo Puerto Plata 10 457 251350.00
+Santo Domingo Puerto Plata 11 451 248050.00
+Santo Domingo Puerto Plata 12 527 289850.00
+Santo Domingo Punta Cana 1 398 199000.00
+Santo Domingo Punta Cana 2 404 202000.00
+Santo Domingo Punta Cana 3 401 200500.00
+Santo Domingo Punta Cana 4 439 219500.00
+Santo Domingo Punta Cana 5 419 209500.00
+Santo Domingo Punta Cana 6 456 228000.00
+Santo Domingo Punta Cana 7 506 253000.00
+Santo Domingo Punta Cana 8 442 221000.00
+Santo Domingo Punta Cana 9 431 215500.00
+Santo Domingo Punta Cana 10 432 216000.00
+Santo Domingo Punta Cana 11 415 207500.00
+Santo Domingo Punta Cana 12 438 219000.00
+Santo Domingo Samaná 1 467 210150.00
+Santo Domingo Samaná 2 416 187200.00
+Santo Domingo Samaná 3 473 212850.00
+Santo Domingo Samaná 4 443 199350.00
+Santo Domingo Samaná 5 454 204300.00
+Santo Domingo Samaná 6 485 218250.00
+Santo Domingo Samaná 7 452 203400.00
+Santo Domingo Samaná 8 396 178200.00
+Santo Domingo Samaná 9 434 195300.00
+Santo Domingo Samaná 10 442 198900.00
+Santo Domingo Samaná 11 432 194400.00
+Santo Domingo Samaná 12 461 207450.00
+Santo Domingo San Francisco de Macorís 1 432 172800.00
+Santo Domingo San Francisco de Macorís 2 444 177600.00
+Santo Domingo San Francisco de Macorís 3 486 194400.00
+Santo Domingo San Francisco de Macorís 4 398 159200.00
+Santo Domingo San Francisco de Macorís 5 457 182800.00
+Santo Domingo San Francisco de Macorís 6 429 171600.00
+Santo Domingo San Francisco de Macorís 7 420 168000.00
+Santo Domingo San Francisco de Macorís 8 454 181600.00
+Santo Domingo San Francisco de Macorís 9 434 173600.00
+Santo Domingo San Francisco de Macorís 10 469 187600.00
+Santo Domingo San Francisco de Macorís 11 398 159200.00
+Santo Domingo San Francisco de Macorís 12 450 180000.00
+Santo Domingo San Pedro de Macorís 1 483 120750.00
+Santo Domingo San Pedro de Macorís 2 415 103750.00
+Santo Domingo San Pedro de Macorís 3 388 97000.00
+Santo Domingo San Pedro de Macorís 4 461 115250.00
+Santo Domingo San Pedro de Macorís 5 449 112250.00
+Santo Domingo San Pedro de Macorís 6 473 118250.00
+Santo Domingo San Pedro de Macorís 7 450 112500.00
+Santo Domingo San Pedro de Macorís 8 421 105250.00
+Santo Domingo San Pedro de Macorís 9 427 106750.00
+Santo Domingo San Pedro de Macorís 10 471 117750.00
+Santo Domingo San Pedro de Macorís 11 490 122500.00
+Santo Domingo San Pedro de Macorís 12 414 103500.00
+Santo Domingo Santiago 1 503 211260.00
+Santo Domingo Santiago 2 441 185220.00
+Santo Domingo Santiago 3 450 189000.00
+Santo Domingo Santiago 4 457 191940.00
+Santo Domingo Santiago 5 521 218820.00
+Santo Domingo Santiago 6 439 184380.00
+Santo Domingo Santiago 7 508 213360.00
+Santo Domingo Santiago 8 456 191520.00
+Santo Domingo Santiago 9 462 194040.00
+Santo Domingo Santiago 10 488 204960.00
+Santo Domingo Santiago 11 465 195300.00
+Santo Domingo Santiago 12 482 202440.00
+
+(240 rows affected)
+Table 'Pagos'. Scan count 13, logical reads 1308, physical reads 2, page server reads 0, read-ahead reads 1246, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Boletos'. Scan count 13, logical reads 1761, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Viajes'. Scan count 13, logical reads 253, physical reads 0, page server reads 0, read-ahead reads 75, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Rutas'. Scan count 2, logical reads 4, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Worktable'. Scan count 0, logical reads 0, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+
+ SQL Server Execution Times:
+   CPU time = 189 ms,  elapsed time = 32 ms.

@@ -1,0 +1,17 @@
+Changed database context to 'BusRD'.
+100 percent processed.
+Processed 21 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP LOG successfully processed 21 pages in 0.011 seconds (14.559 MB/sec).
+Changed database context to 'BusRD'.
+HoraCorte|BoletosAntes|PagosAntes
+---------|------------|----------
+2026-10-27 21:18:47.963|17|22
+BoletosDespuesDelDelete
+-----------------------
+0
+PagosDespuesDelDelete
+---------------------
+0
+100 percent processed.
+Processed 6 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP LOG successfully processed 6 pages in 0.002 seconds (21.484 MB/sec).

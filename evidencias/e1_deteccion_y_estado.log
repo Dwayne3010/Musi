@@ -1,0 +1,60 @@
+Changed database context to 'BusRD_Baseline'.
+=== E1.1 Deteccion sobre la base original (pre-limpieza) ===
+GruposDuplicados|BoletosInvolucrados
+----------------|-------------------
+61|122
+ViajeID|NumeroAsiento|Activos|BoletoMasAntiguo|BoletoMasReciente
+-------|-------------|-------|----------------|-----------------
+328|5|2|51212|232084
+336|11|2|52289|232104
+343|32|2|53072|232074
+415|30|2|63208|232067
+712|19|2|40867|232082
+794|12|2|54750|232062
+807|5|2|55886|232102
+857|41|2|64897|232114
+1456|36|2|61614|232098
+1469|40|2|63472|232085
+PagosHuerfanos
+--------------
+15
+PagoID|BoletoID|Monto|Metodo|FechaPago
+------|--------|-----|------|---------
+226340|900001|300.00|Efectivo|2025-05-01 00:00:00
+226341|900002|300.00|Efectivo|2025-05-01 00:00:00
+226342|900003|300.00|Efectivo|2025-05-01 00:00:00
+226343|900004|300.00|Efectivo|2025-05-01 00:00:00
+226344|900005|300.00|Efectivo|2025-05-01 00:00:00
+Changed database context to 'BusRD'.
+=== E1.2 Auditoria y estado final ===
+AuditoriaDuplicados
+-------------------
+61
+AuditoriaHuerfanos
+------------------
+15
+DuplicadosActivos
+-----------------
+0
+PagosHuerfanos
+--------------
+0
+FKs
+---
+6
+CHECKs
+------
+10
+IndiceUnico
+-----------
+UQ_Autobuses_Placa
+UQ_Clientes_Cedula
+UX_Boletos_Viaje_Asiento_Activo
+BoletoID|Estado
+--------|------
+232116|Activo
+232117|Anulado
+PagoID|BoletoID|Monto
+------|--------|-----
+226356|232117|420.00
+226379|232117|-420.00

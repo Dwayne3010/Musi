@@ -1,0 +1,64 @@
+NumeroAsiento|Ubicacion
+-------------|---------
+2|Pasillo
+4|Ventana
+5|Ventana
+6|Pasillo
+7|Pasillo
+8|Ventana
+9|Ventana
+10|Pasillo
+11|Pasillo
+12|Ventana
+13|Ventana
+14|Pasillo
+15|Pasillo
+16|Ventana
+18|Pasillo
+19|Pasillo
+20|Ventana
+21|Ventana
+22|Pasillo
+23|Pasillo
+24|Ventana
+25|Ventana
+26|Pasillo
+27|Pasillo
+28|Ventana
+29|Ventana
+30|Pasillo
+31|Pasillo
+32|Ventana
+33|Ventana
+34|Pasillo
+35|Pasillo
+36|Ventana
+37|Ventana
+38|Pasillo
+39|Pasillo
+40|Ventana
+41|Ventana
+42|Pasillo
+43|Pasillo
+44|Ventana
+
+(41 rows affected)
+Rows|Executes|StmtText|StmtId|NodeId|Parent|PhysicalOp|LogicalOp|Argument|DefinedValues|EstimateRows|EstimateIO|EstimateCPU|AvgRowSize|TotalSubtreeCost|OutputList|Warnings|Type|Parallel|EstimateExecutions
+----|--------|--------|------|------|------|----------|---------|--------|-------------|------------|----------|-----------|----------|----------------|----------|--------|----|--------|------------------
+41|1|SELECT s.NumeroAsiento, s.Ubicacion
+FROM dbo.Viajes v
+JOIN dbo.Asientos s ON s.AutobusID = v.AutobusID
+WHERE v.ViajeID = @ViajeID
+  AND s.NumeroAsiento NOT IN (SELECT b.NumeroAsiento
+                              FROM dbo.Boletos b
+                              WHERE b.ViajeID = @ViajeID
+                                AND b.Estado = 'Activo')
+ORDER BY s.NumeroAsiento|1|1|0|NULL|NULL|NULL|NULL|29.729155|NULL|NULL|NULL|1.7219331|NULL|NULL|SELECT|0|NULL
+41|1|  |--Nested Loops(Left Anti Semi Join, WHERE:([BusRD].[dbo].[Asientos].[NumeroAsiento] as [s].[NumeroAsiento]=[BusRD].[dbo].[Boletos].[NumeroAsiento] as [b].[NumeroAsiento]))|1|2|1|Nested Loops|Left Anti Semi Join|WHERE:([BusRD].[dbo].[Asientos].[NumeroAsiento] as [s].[NumeroAsiento]=[BusRD].[dbo].[Boletos].[NumeroAsiento] as [b].[NumeroAsiento])|NULL|29.729155|0.0|1.655226E-3|20|1.7219331|[s].[NumeroAsiento], [s].[Ubicacion]|NULL|PLAN_ROW|0|1.0
+44|1|       |--Nested Loops(Inner Join, OUTER REFERENCES:([v].[AutobusID]))|1|3|2|Nested Loops|Inner Join|OUTER REFERENCES:([v].[AutobusID])|NULL|41.0|0.0|0.00017138|20|6.7815799E-3|[s].[NumeroAsiento], [s].[Ubicacion]|NULL|PLAN_ROW|0|1.0
+1|1|       |    |--Clustered Index Seek(OBJECT:([BusRD].[dbo].[Viajes].[PK__Viajes__D76D88EC122BB8E3] AS [v]), SEEK:([v].[ViajeID]=[@ViajeID]) ORDERED FORWARD)|1|4|3|Clustered Index Seek|Clustered Index Seek|OBJECT:([BusRD].[dbo].[Viajes].[PK__Viajes__D76D88EC122BB8E3] AS [v]), SEEK:([v].[ViajeID]=[@ViajeID]) ORDERED FORWARD|[v].[AutobusID]|1.0|0.003125|0.0001581|11|0.0032831|[v].[AutobusID]|NULL|PLAN_ROW|0|1.0
+44|1|       |    |--Clustered Index Seek(OBJECT:([BusRD].[dbo].[Asientos].[PK_Asientos] AS [s]), SEEK:([s].[AutobusID]=[BusRD].[dbo].[Viajes].[AutobusID] as [v].[AutobusID]) ORDERED FORWARD)|1|5|3|Clustered Index Seek|Clustered Index Seek|OBJECT:([BusRD].[dbo].[Asientos].[PK_Asientos] AS [s]), SEEK:([s].[AutobusID]=[BusRD].[dbo].[Viajes].[AutobusID] as [v].[AutobusID]) ORDERED FORWARD|[s].[NumeroAsiento], [s].[Ubicacion]|41.0|0.003125|0.0002021|20|3.3271001E-3|[s].[NumeroAsiento], [s].[Ubicacion]|NULL|PLAN_ROW|0|1.0
+129|44|       |--Table Spool|1|6|2|Table Spool|Lazy Spool|NULL|NULL|14.032119|9.9999998E-3|1.0262578E-4|11|1.7133776|[b].[NumeroAsiento]|NULL|PLAN_ROW|0|41.0
+3|1|            |--Clustered Index Scan(OBJECT:([BusRD].[dbo].[Boletos].[PK__Boletos__C5AF443425052952] AS [b]), WHERE:([BusRD].[dbo].[Boletos].[ViajeID] as [b].[ViajeID]=[@ViajeID] AND [BusRD].[dbo].[Boletos].[Estado] as [b].[Estado]='Activo'))|1|7|6|Clustered Index Scan|Clustered Index Scan|OBJECT:([BusRD].[dbo].[Boletos].[PK__Boletos__C5AF443425052952] AS [b]), WHERE:([BusRD].[dbo].[Boletos].[ViajeID] as [b].[ViajeID]=[@ViajeID] AND [BusRD].[dbo].[Boletos].[Estado] as [b].[Estado]='Activo')|[b].[NumeroAsiento]|14.032119|1.2394212|0.25548789|25|1.4949092|[b].[NumeroAsiento]|NULL|PLAN_ROW|0|1.0
+
+(7 rows affected)

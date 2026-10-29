@@ -1,0 +1,22 @@
+
+ SQL Server Execution Times:
+   CPU time = 0 ms,  elapsed time = 0 ms.
+Nombre Apellido Origen Destino FechaSalida NumeroAsiento Precio Estado
+------ -------- ------ ------- ----------- ------------- ------ ------
+Juan Pérez Santo Domingo Santiago 2026-10-15 07:00:00 1 420.00 Activo
+Juan Pérez Santo Domingo Santiago 2026-10-15 07:00:00 1 420.00 Activo
+Juan Pérez Santo Domingo Barahona 2026-08-24 13:00:00 40 480.00 Activo
+Juan Pérez Santo Domingo Barahona 2025-08-21 13:00:00 14 480.00 Activo
+Juan Pérez San Francisco de Macorís Santo Domingo 2025-05-24 09:00:00 21 400.00 Activo
+Juan Pérez Santo Domingo Higüey 2024-11-30 16:00:00 30 400.00 Activo
+
+(6 rows affected)
+Table 'Worktable'. Scan count 0, logical reads 0, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Boletos'. Scan count 1, logical reads 1677, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Clientes'. Scan count 1, logical reads 496, physical reads 1, page server reads 0, read-ahead reads 501, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Worktable'. Scan count 0, logical reads 0, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Rutas'. Scan count 0, logical reads 12, physical reads 1, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Viajes'. Scan count 0, logical reads 12, physical reads 3, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+
+ SQL Server Execution Times:
+   CPU time = 16 ms,  elapsed time = 18 ms.

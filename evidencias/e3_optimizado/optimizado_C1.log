@@ -1,0 +1,58 @@
+SQL Server parse and compile time: 
+   CPU time = 0 ms, elapsed time = 0 ms.
+
+ SQL Server Execution Times:
+   CPU time = 0 ms,  elapsed time = 0 ms.
+SQL Server parse and compile time: 
+   CPU time = 0 ms, elapsed time = 4 ms.
+NumeroAsiento Ubicacion
+------------- ---------
+2 Pasillo
+4 Ventana
+5 Ventana
+6 Pasillo
+7 Pasillo
+8 Ventana
+9 Ventana
+10 Pasillo
+11 Pasillo
+12 Ventana
+13 Ventana
+14 Pasillo
+15 Pasillo
+16 Ventana
+18 Pasillo
+19 Pasillo
+20 Ventana
+21 Ventana
+22 Pasillo
+23 Pasillo
+24 Ventana
+25 Ventana
+26 Pasillo
+27 Pasillo
+28 Ventana
+29 Ventana
+30 Pasillo
+31 Pasillo
+32 Ventana
+33 Ventana
+34 Pasillo
+35 Pasillo
+36 Ventana
+37 Ventana
+38 Pasillo
+39 Pasillo
+40 Ventana
+41 Ventana
+42 Pasillo
+43 Pasillo
+44 Ventana
+
+(41 rows affected)
+Table 'Boletos'. Scan count 1, logical reads 3, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Asientos'. Scan count 1, logical reads 2, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+Table 'Viajes'. Scan count 0, logical reads 2, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+
+ SQL Server Execution Times:
+   CPU time = 0 ms,  elapsed time = 0 ms.

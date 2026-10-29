@@ -1,0 +1,30 @@
+Changed database context to 'master'.
+10 percent processed.
+20 percent processed.
+31 percent processed.
+40 percent processed.
+51 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+100 percent processed.
+Processed 8240 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 8242 pages in 0.087 seconds (740.077 MB/sec).
+65 percent processed.
+100 percent processed.
+Processed 208 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 210 pages in 0.049 seconds (33.402 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 21 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 21 pages in 0.003 seconds (53.385 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 6 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 6 pages in 0.003 seconds (14.322 MB/sec).
+name state_desc recovery_model_desc
+---- ---------- -------------------
+BusRD_Recuperada ONLINE FULL

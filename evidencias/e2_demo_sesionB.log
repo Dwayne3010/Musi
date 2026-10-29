@@ -1,0 +1,10 @@
+﻿Changed database context to 'BusRD'.
+Evento Hora
+------ ----
+SESION B - inicio 2026-10-27 21:22:30.5285654
+Evento Numero Mensaje Hora
+------ ------ ------- ----
+SESION B - rechazada 51006 El asiento ya esta vendido. 2026-10-27 21:22:38.3885133
+ViajeID NumeroAsiento BoletosActivos
+------- ------------- --------------
+15541 29 1

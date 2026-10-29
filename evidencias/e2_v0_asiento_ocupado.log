@@ -1,0 +1,4 @@
+Msg 50000, Level 16, State 1, Procedure dbo.sp_VenderBoleto_v0, Line 17 [Batch Start Line 5]
+El asiento ya está vendido.
+
+Completion time: 2026-10-28T23:14:14.3650751-04:00

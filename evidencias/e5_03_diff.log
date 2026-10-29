@@ -1,0 +1,11 @@
+16 percent processed.
+20 percent processed.
+44 percent processed.
+61 percent processed.
+73 percent processed.
+81 percent processed.
+93 percent processed.
+100 percent processed.
+Processed 208 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP DATABASE WITH DIFFERENTIAL successfully processed 210 pages in 0.014 seconds (116.908 MB/sec).

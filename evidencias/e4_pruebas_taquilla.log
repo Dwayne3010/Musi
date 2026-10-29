@@ -1,0 +1,21 @@
+Changed database context to 'BusRD'.
+--- TAQUILLA: SELECT vista de asientos (permitido) ---
+ViajeID|FechaSalida|Origen|Destino|NumeroAsiento|Ubicacion
+-------|-----------|------|-------|-------------|---------
+15541|2026-10-15 07:00:00|Santo Domingo|Santiago|2|Pasillo
+15541|2026-10-15 07:00:00|Santo Domingo|Santiago|4|Ventana
+15541|2026-10-15 07:00:00|Santo Domingo|Santiago|6|Pasillo
+15541|2026-10-15 07:00:00|Santo Domingo|Santiago|7|Pasillo
+15541|2026-10-15 07:00:00|Santo Domingo|Santiago|8|Ventana
+--- TAQUILLA: SELECT directo a Boletos (denegado) ---
+Resultado|Numero|Mensaje
+---------|------|-------
+DENEGADO|229|The SELECT permission was denied on the object 'Boletos', database 'BusRD', schema 'dbo'.
+--- TAQUILLA: SELECT Email/Telefono de Clientes (denegado) ---
+Resultado|Numero|Mensaje
+---------|------|-------
+DENEGADO|229|The SELECT permission was denied on the object 'Clientes', database 'BusRD', schema 'dbo'.
+--- TAQUILLA: EXEC sp_VenderBoleto (permitido) ---
+Resultado|BoletoID
+---------|--------
+PERMITIDO|232123

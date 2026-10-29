@@ -1,0 +1,21 @@
+Changed database context to 'BusRD'.
+--- REPORTES: SELECT vw_VentasMensuales (permitido) ---
+Anio|Mes|Origen|Destino|Boletos|Ingresos
+----|---|------|-------|-------|--------
+2025|1|Barahona|Santo Domingo|404|193920.00
+2025|1|Higüey|Santo Domingo|476|190400.00
+2025|1|La Romana|Santo Domingo|466|163100.00
+2025|1|La Vega|Santo Domingo|447|160920.00
+2025|1|Puerto Plata|Santo Domingo|440|242000.00
+--- REPORTES: SELECT Email/Telefono de Clientes (denegado) ---
+Resultado|Numero|Mensaje
+---------|------|-------
+DENEGADO|229|The SELECT permission was denied on the object 'Clientes', database 'BusRD', schema 'dbo'.
+--- REPORTES: SELECT vw_AsientosDisponibles (denegado) ---
+Resultado|Numero|Mensaje
+---------|------|-------
+DENEGADO|229|The SELECT permission was denied on the object 'vw_AsientosDisponibles', database 'BusRD', schema 'dbo'.
+--- REPORTES: EXEC sp_VenderBoleto (denegado) ---
+Resultado|Numero|Mensaje
+---------|------|-------
+DENEGADO|229|The EXECUTE permission was denied on the object 'sp_VenderBoleto', database 'BusRD', schema 'dbo'.

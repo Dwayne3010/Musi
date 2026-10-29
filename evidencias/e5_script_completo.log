@@ -1,0 +1,150 @@
+﻿Changed database context to 'master'.
+Changed database context to 'BusRD'.
+10 percent processed.
+20 percent processed.
+31 percent processed.
+40 percent processed.
+51 percent processed.
+60 percent processed.
+71 percent processed.
+80 percent processed.
+90 percent processed.
+100 percent processed.
+Processed 8240 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP DATABASE successfully processed 8242 pages in 0.079 seconds (815.021 MB/sec).
+Changed database context to 'BusRD'.
+BoletoID Fase FechaVenta
+-------- ---- ----------
+232140 Fase1 2026-10-27 21:21:16
+232141 Fase1 2026-10-27 21:21:16
+232142 Fase1 2026-10-27 21:21:16
+232143 Fase1 2026-10-27 21:21:16
+232144 Fase1 2026-10-27 21:21:16
+15 percent processed.
+20 percent processed.
+36 percent processed.
+51 percent processed.
+61 percent processed.
+72 percent processed.
+82 percent processed.
+92 percent processed.
+100 percent processed.
+Processed 168 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP DATABASE WITH DIFFERENTIAL successfully processed 170 pages in 0.013 seconds (101.862 MB/sec).
+Changed database context to 'BusRD'.
+BoletoID Fase FechaVenta
+-------- ---- ----------
+232140 Fase1 2026-10-27 21:21:16
+232141 Fase1 2026-10-27 21:21:16
+232142 Fase1 2026-10-27 21:21:16
+232143 Fase1 2026-10-27 21:21:16
+232144 Fase1 2026-10-27 21:21:16
+232145 Fase2 2026-10-27 21:21:16
+232146 Fase2 2026-10-27 21:21:16
+232147 Fase2 2026-10-27 21:21:16
+Changed database context to 'BusRD'.
+100 percent processed.
+Processed 35 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP LOG successfully processed 35 pages in 0.003 seconds (91.145 MB/sec).
+Changed database context to 'BusRD'.
+HoraCorte BoletosAntes PagosAntes
+--------- ------------ ----------
+2026-10-27 21:21:16.487 33 38
+BoletosDespuesDelDelete
+-----------------------
+0
+100 percent processed.
+Processed 8 pages for database 'BusRD', file 'BusRD_log' on file 1.
+BACKUP LOG successfully processed 8 pages in 0.003 seconds (20.833 MB/sec).
+Changed database context to 'master'.
+Restaurando BusRD_Recuperada hasta: 2026-10-27T21:21:16.487
+10 percent processed.
+20 percent processed.
+31 percent processed.
+40 percent processed.
+51 percent processed.
+60 percent processed.
+71 percent processed.
+80 percent processed.
+90 percent processed.
+100 percent processed.
+Processed 8240 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 8242 pages in 0.124 seconds (519.247 MB/sec).
+82 percent processed.
+100 percent processed.
+Processed 168 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 170 pages in 0.081 seconds (16.348 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 35 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 35 pages in 0.003 seconds (91.145 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD_Recuperada', file 'BusRD' on file 1.
+Processed 8 pages for database 'BusRD_Recuperada', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 8 pages in 0.003 seconds (20.833 MB/sec).
+Changed database context to 'BusRD_Recuperada'.
+Base BoletosViaje
+---- ------------
+BusRD_Recuperada 33
+PagosViaje
+----------
+38
+BoletosAntes PagosAntes FechaCorte
+------------ ---------- ----------
+33 38 2026-10-27 21:21:16.487
+BoletoID Fase NumeroAsiento Estado Precio
+-------- ---- ------------- ------ ------
+232140 Fase1 21 Activo 420.00
+232141 Fase1 22 Activo 420.00
+232142 Fase1 23 Activo 420.00
+232143 Fase1 24 Activo 420.00
+232144 Fase1 25 Activo 420.00
+232145 Fase2 26 Activo 420.00
+232146 Fase2 27 Activo 420.00
+232147 Fase2 28 Activo 420.00
+Changed database context to 'master'.
+Restaurando BusRD hasta: 2026-10-27T21:21:16.487
+10 percent processed.
+20 percent processed.
+31 percent processed.
+40 percent processed.
+51 percent processed.
+60 percent processed.
+71 percent processed.
+80 percent processed.
+90 percent processed.
+100 percent processed.
+Processed 8240 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 8242 pages in 0.129 seconds (499.121 MB/sec).
+82 percent processed.
+100 percent processed.
+Processed 168 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 2 pages for database 'BusRD', file 'BusRD_log' on file 1.
+RESTORE DATABASE successfully processed 170 pages in 0.083 seconds (15.954 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 35 pages for database 'BusRD', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 35 pages in 0.002 seconds (136.718 MB/sec).
+100 percent processed.
+Processed 0 pages for database 'BusRD', file 'BusRD' on file 1.
+Processed 8 pages for database 'BusRD', file 'BusRD_log' on file 1.
+RESTORE LOG successfully processed 8 pages in 0.003 seconds (20.833 MB/sec).
+Changed database context to 'BusRD'.
+Base BoletosViaje
+---- ------------
+BusRD 33
+BoletosVendidosRecuperados
+--------------------------
+8
+Tipo Frecuencia Retencion Justificacion
+---- ---------- --------- -------------
+FULL Diario a las 02:00 30 dias Base de la cadena; permite recuperar la base completa.
+DIFERENCIAL Cada 6 horas (06:00, 12:00, 18:00, 00:00) 7 dias Reduce el tiempo de restauracion sin respaldar todo el log.
+LOG Cada 15 minutos 7 dias RPO de 15 minutos; permite STOPAT ante borrados o errores.
+FULL mensual Primer dia del mes a las 02:00 12 meses Retencion historica y recuperacion ante fallas prolongadas.
+LOG de cola Bajo demanda ante un incidente Hasta recuperar Captura los ultimos cambios cuando la base sigue en linea.

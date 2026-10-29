@@ -1,0 +1,9 @@
+=== E2.1 Resultado de la reproduccion con sp_VenderBoleto_v0 ===
+Viaje 15541 / asiento 30 / cliente 1000
+BoletoID|NumeroAsiento|Canal|Estado|Precio|FechaVenta|PagoID|Monto|Metodo
+--------|-------------|-----|------|------|----------|------|-----|------
+232149|30|Taquilla|Activo|420.00|2026-10-27 21:28:00|226454|420.00|Efectivo
+232150|30|Web|Activo|420.00|2026-10-27 21:28:07|226455|420.00|Tarjeta
+BoletosActivos
+--------------
+2

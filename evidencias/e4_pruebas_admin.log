@@ -1,0 +1,15 @@
+Changed database context to 'BusRD'.
+--- ADMIN: SELECT Clientes y PII (permitido) ---
+TotalClientes
+-------------
+50000
+ClienteID|Nombre|Apellido|Email|Telefono
+---------|------|--------|-----|--------
+1|María|Pérez|cliente1@correo.do|8090000001
+--- ADMIN: CREATE/INSERT/DROP tabla (permitido) ---
+ID|Descripcion
+--|-----------
+1|prueba
+Resultado|Detalle
+---------|-------
+PERMITIDO|Tabla creada, consultada y eliminada

@@ -1,0 +1,5 @@
+Changed database context to 'BusRD'.
+--- TAQUILLA: EXEC sp_AnularBoleto (permitido) ---
+Resultado|BoletoAnulado
+---------|-------------
+PERMITIDO|232123
