@@ -1,4 +1,4 @@
-Trabajo Final de Taller de Base de Datos III. Diagnóstico y corrección de la base de datos de **BusRD**.
+Trabajo Final de Taller de Base de Datos III. Diagnóstico y corrección de la base de datos de **BusRD Grupo 1**.
 
 ---
 
